@@ -41,6 +41,6 @@ public class DeliveryTest {
         $(withText("Запланировать")).click();
         $("[data-test-id=replan-notification]").should(Condition.text("У вас уже запланирована встреча на другую дату. Перепланировать?"), Duration.ofSeconds(10));
         $(withText("Перепланировать")).click();
-        //$("[data-test-id=success-notification]").should(Condition.text("Встреча успешно запланирована на " + secondMeetingDate), Duration.ofSeconds(10));
+        $("[data-test-id=success-notification]").should(Condition.text("Встреча успешно запланирована на " + secondMeetingDate), Duration.ofSeconds(10));
     }
 }
