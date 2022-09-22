@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/r6oajkt4ew3wm3f6?svg=true)](https://ci.appveyor.com/project/Yana-kalugina/2-3changedata)
